@@ -1,6 +1,24 @@
+
 .invert{
     filter: invert(1);
 }
 ul{
     list-style-type: none;
+}
+
+.list{
+    font-size: 20px;
+    color: rgb(231, 233, 234);
+    width: fit-content;
+  
+    padding: 8px 25px 8px 10px;
+    border-radius: 30px;
+   
+}
+.list:hover{
+    background-color: #231f1f;
+    cursor: pointer;
+}
+.logo{
+    margin: 10px 45px 23px;
 }
