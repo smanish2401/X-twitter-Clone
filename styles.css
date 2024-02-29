@@ -22,3 +22,29 @@ ul{
 .logo{
     margin: 10px 45px 23px;
 }
+.input{
+    width: 306px;
+    height: 40px;
+    background-color: #2c2d2d;
+    border: 1px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+
+    margin-top: 6px;
+   
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+.icon{
+    background-color: #2c2d2d;
+    width: 37px;
+    height: 40px;
+    margin-top: 6px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
