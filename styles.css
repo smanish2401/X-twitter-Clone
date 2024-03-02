@@ -24,27 +24,35 @@ ul{
 }
 .input{
     width: 306px;
-    height: 40px;
+    height: 42px;
     background-color: #2c2d2d;
     border: 1px;
-    border-top-right-radius: 19px;
-    border-bottom-right-radius: 19px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 
-    margin-top: 6px;
+   
    
     color: white;
 }
 input:focus{
-    outline: none;
+    outline:none;
 }
+
 .icon{
     background-color: #2c2d2d;
-    width: 37px;
-    height: 40px;
-    margin-top: 6px;
-    border-top-left-radius: 19px;
-    border-bottom-left-radius: 19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 75px;
+    height: 42px;
+   border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.trending{
+    width: 380px;
+    border-radius: 20px;
+    background-color: #2c2d2d;
+    color: rgb(231, 233, 234);
+}
+.trending-item p{
+    font-size: 14px;
+    font-weight: light;
+    color: rgb(148, 146, 146);
 }
