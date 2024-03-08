@@ -70,3 +70,6 @@ input:focus{
     background-color: rgb(35, 36, 36);
     
 }
+.side-bar .btn{
+    padding: 14px 0;
+}
